@@ -15,6 +15,9 @@ $(document).ready(function(e) {
     if (min < 10) {
       min = "0" + min
     }
+    if (hours < 10) {
+      hours = "0" + hours
+    }
     $("#output").html(`${hours}:${min}:${sec}`)
   }, 1000)
 })
