@@ -23,7 +23,12 @@ body {
   width: 600px;
   margin-top: 50px;
   border: 10px solid darkgray;
+}
+.clockBack {
   background-image: url("hourglass-in-close-up-photography-1178683.jpg");
+}
+.hexBack {
+  background-image: url("8667.jpg");
 }
 .container {
   display: grid;
@@ -39,5 +44,31 @@ body {
   font-size: 5em;
   margin-right: 180px;
 }
-#output {
-}
+/* #hexCount {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+} */
+/* .hexOuter {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 600px;
+  margin-top: 50px;
+  border: 10px solid darkgray;
+} */
+/* .hexContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 365px;
+  height: 250px;
+  background-color: rgb(0, 38, 90);
+  border-radius: 50%;
+  border: 10px solid darkgray;
+  margin: 0;
+  color: white;
+  font-size: 5em;
+  margin-right: 180px;
+} */
