@@ -19,5 +19,8 @@ $(document).ready(function(e) {
       hours = "0" + hours
     }
     $("#output").html(`${hours}:${min}:${sec}`)
+    var num = hours.toString(16) + min.toString(16) + sec.toString(16)
+    $("#hexCount").html(`#${num}`)
+    $(".hexContainer").css("background-color", `#${num}`)
   }, 1000)
 })
